@@ -133,7 +133,12 @@ img {
 
 /* HEADER */
 
-.header__container {
+header{
+    min-height:100vh;
+   }
+    /* so that the header is not higher than the view page  */
+   
+   .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
