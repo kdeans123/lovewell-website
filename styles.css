@@ -168,3 +168,6 @@ img {
     transition: all 300ms ease;
 }
 
+.btn__contact--anchor-primary:hover {
+    color: #654146;
+}
