@@ -90,8 +90,8 @@ img {
   }
 
 .logo {   /* logo changes color from white to black , you can also transition it - using filter   */
-    width: 90px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     /* filter: invert(1);    - this to be used when we want to change to the opposite color*/
     scale: 2;  
 }
@@ -102,6 +102,11 @@ img {
     font-size: 20px;
     font-weight: bold;
     padding: 8px;
+    color: #654146;
+  }
+
+  .nav__link--dark-pink {
+    color: #e57381;
   }
 
 .nav__link--list {
