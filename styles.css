@@ -134,11 +134,11 @@ img {
 /* HEADER */
 
 header{
-    min-height:100vh;
-   }
-    /* so that the header is not higher than the view page  */
+    margin: 0 auto;
+    max-width: 1200px;
+}
    
-   .header__container {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
