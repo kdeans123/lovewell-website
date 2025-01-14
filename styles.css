@@ -52,8 +52,13 @@ button {
 
 
 h1 {
-    font-size: 3.333em;
+    font-size: 48px;
     line-height: 1.2em;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-size: 32px;
     letter-spacing: -2px;
 }
 
@@ -120,8 +125,15 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
 }
+
 
 .header__img--wrapper {
     padding: 20px;
+    max-width: 50%;
+}
+
+.header__content{
+    max-width: 50%;
 }
