@@ -92,6 +92,10 @@ img {
     font-size: 16px;
 }
   
+.header__title,
+.header__subtitle {
+    margin: 16px 0;
+}
 
 
 /* NAVIGATION */
