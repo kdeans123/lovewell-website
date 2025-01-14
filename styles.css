@@ -79,6 +79,18 @@ h2 {
 img {
     width: 100%;
   }
+
+.btn {
+    margin: 16px;
+    border-radius: 500px;
+    width: 240px;
+    height: 56px;
+    border: none;
+    background-color: #e57381;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
   
 
 
@@ -119,7 +131,7 @@ img {
 }
 
 
-
+/* HEADER */
 
 .header__container {
     display: flex;
@@ -136,4 +148,22 @@ img {
 
 .header__content{
     max-width: 50%;
+}
+
+.btn__contact--anchor {
+    color: #e57381;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn__contact:hover .btn__contact--anchor {
+    color: #e57381;
+  }
+
+.btn__contact--anchor-primary {
+    background-color: #e57381;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all 300ms ease;
 }
