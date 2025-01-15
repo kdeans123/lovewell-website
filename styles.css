@@ -116,6 +116,10 @@ img {
     width: 50%;
 }
 
+.section__img--wrapper {
+    border-radius: 20px;
+}
+
 .text-center {
     text-align: center !important;
 }
@@ -210,4 +214,97 @@ header{
 
 .btn__contact--anchor-primary:hover {
     color: #654146;
+}
+
+
+
+
+/* FOOTER */
+
+#footer {
+    padding: 70px 0px;   /* instead of height: 100vh and width 100vw - as these may cause problems with responsiveness   */
+    }
+
+footer {
+    background-color:#e57381;
+    color: white;
+    }
+    
+.footer__row {
+    width: 100%;   /*  It fills the spacing, the gap so I can achieve spaces between columns without margin auto zero */
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px 0 24px 0;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.footer__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo--image {
+    width: 100%;
+    max-width: 50px;
+    padding: 7px;
+}
+
+.footer__column {
+    margin: 48px 0 0;
+    padding: 0 16px;
+}
+
+.footer__column--title {
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.footer__column--link {
+    margin-top: 24px;
+    transition: all 300ms;
+}
+
+.footer__column--link:hover {
+    text-decoration: underline;
+}
+
+.social__link {
+    border-radius: 50%; /* so the image changes into round  */
+    border: none;
+    margin-left: 16px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.footer__copyright {
+    margin-top: 15px;
+    color: #d7dce4;
+}
+
+.footer__divider {
+    width: 100%;
+    height: 2px;
+    margin: 64px 0;
+    background: #f4b6c2;
 }
