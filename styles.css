@@ -242,7 +242,7 @@ footer {
     scale: 2; 
 }
 
-.footer__social--list {
+.footer__list {
     width: 100%;
     max-width: 500px;       /* so we bring them closer together */
     display: flex;
@@ -250,7 +250,8 @@ footer {
     margin: 20px 0;
 }
 
-.footer__social--link, .footer__copyright {
+.footer__link, 
+.footer__copyright {
     color: white;
 }
 
