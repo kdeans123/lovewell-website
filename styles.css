@@ -254,3 +254,12 @@ footer {
     color: white;
 }
 
+.footer__link {
+    margin-top: 24px;
+    transition: all 300ms;
+}
+
+.footer__link:hover {
+ text-decoration: underline;
+}
+
