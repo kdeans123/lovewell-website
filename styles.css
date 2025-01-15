@@ -97,6 +97,38 @@ img {
     margin: 16px 0;
 }
 
+.quote {
+    font-style: italic;
+    text-align: center;
+}
+
+.quote__author {
+    text-align: right;
+}
+
+.sections {
+    gap: 20px;
+    display: flex;
+}
+
+.section__right, 
+.section__left {
+    width: 50%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.section__title {
+    margin-bottom: 40px;
+}
+
+.servicebox__title {
+    display: block;
+    margin: 24px 0;
+}
+
 
 /* NAVIGATION */
 
