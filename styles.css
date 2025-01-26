@@ -217,6 +217,97 @@ header{
 
 
 
+/* REVIEWS */
+
+.reviews__videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* Adjust the max width as needed */
+    aspect-ratio: 16 / 9; /* Maintain the 16:9 video aspect ratio */
+    overflow: hidden;
+    border-radius: 12px; /* Optional: Add rounded corners for a polished look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/* NEWSLETTER */
+.newsletter-section {
+    background-color: #f9f9f9; /* Light background */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.newsletter-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #b565a7; /* Dark pink from your color palette */
+}
+
+.newsletter-section p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.newsletter-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.btn__subscribe--anchor {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #b565a7; /* Dark pink */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn__subscribe--anchor:hover {
+    background-color: #9c4d91; /* Slightly darker shade */
+}
+
+@media (max-width: 768px) {
+    .newsletter-form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .newsletter-input {
+        max-width: 100%;
+    }
+}
+
 
 /* FOOTER */
 

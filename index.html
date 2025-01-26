@@ -173,6 +173,55 @@
             <div class="row">
                 <h1 class="section__title">What people say:</h1>
             </div>
+            <div class="row reviews__videos">
+                <!-- Video 1 -->
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/example_video_id1" 
+                        title="Testimonial Video 1" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+    
+                <!-- Video 2 -->
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/example_video_id2" 
+                        title="Testimonial Video 2" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+    
+                <!-- Add more videos as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="newsletter-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="section__title text-center">Stay Connected</h2>
+                <p class="text-center">Subscribe to our newsletter for tips, updates, and exclusive content.</p>
+            </div>
+            <div class="row">
+                <form class="newsletter-form" action="https://example.com/subscribe" method="POST">
+                    <!-- Replace action with your backend or newsletter service URL -->
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Enter your email address" 
+                        required 
+                        class="newsletter-input"
+                    />
+                    <button type="submit" class="btn btn__subscribe--anchor btn__subscribe--hover-effect btn__subscribe--anchor-primary">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
         </div>
     </section>
 
