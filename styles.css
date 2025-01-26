@@ -158,6 +158,12 @@ img {
     font-weight: bold;
     padding: 8px;
     color: #654146;
+    transition: all 300ms;
+  }
+
+  .nav__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 
   .nav__link--dark-pink {
@@ -353,5 +359,6 @@ footer {
 
 .footer__link:hover {
  text-decoration: underline;
+ 
 }
 
