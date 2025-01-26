@@ -263,7 +263,7 @@ header{
 .newsletter-section h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #b565a7; /* Dark pink from your color palette */
+    color: #e57381; /* Dark pink from your color palette */
 }
 
 .newsletter-section p {
@@ -283,25 +283,25 @@ header{
 .newsletter-input {
     width: 100%;
     max-width: 400px;
-    padding: 10px 15px;
+    padding: 17px 15px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 1rem;
+    border-radius: 500px;
+    font-size: 1.1rem;
 }
 
 .btn__subscribe--anchor {
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
-    border-radius: 8px;
-    background-color: #b565a7; /* Dark pink */
+    border-radius: 500px;
+    background-color: #e57381; /* Dark pink */
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .btn__subscribe--anchor:hover {
-    background-color: #9c4d91; /* Slightly darker shade */
+    background-color: #c0392b; /* Slightly darker shade */
 }
 
 @media (max-width: 768px) {
