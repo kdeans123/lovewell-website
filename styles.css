@@ -18,7 +18,8 @@ li {
 p{
     line-height: 1.5;
     font-size: 18px;
-    padding: 24px;
+    padding: 24px 0;
+    margin: 24px 0;
 }
 
 a {
@@ -214,7 +215,7 @@ header{
     color: #e57381;
     font-weight: 600;
     font-size: 14px;
-    padding: 24px;
+    padding: ;
 }
 
 .btn__contact:hover .btn__contact--anchor {
@@ -223,10 +224,11 @@ header{
 
 .btn__contact--anchor-primary {
     background-color: #e57381;
-    padding: 8px 20px;
+    padding: 24px;
     border-radius: 50px;
     color: white;
     transition: all 300ms ease;
+    margin-top: 24px;
 }
 
 .btn__contact--anchor-primary:hover {
