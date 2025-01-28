@@ -238,9 +238,12 @@ header{
 
 .reviews__videos {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+}
+
+.content-wrapper{
+    max-width: 50%;
 }
 
 .video-wrapper {
