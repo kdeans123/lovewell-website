@@ -214,6 +214,7 @@ header{
     color: #e57381;
     font-weight: 600;
     font-size: 14px;
+    padding: 24px;
 }
 
 .btn__contact:hover .btn__contact--anchor {
