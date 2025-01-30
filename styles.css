@@ -435,3 +435,100 @@ footer {
     border-radius: 4px; /* Slightly rounds the corners of the background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+
+
+
+
+/* for smartphones, tablets */
+
+@media (max-width: 768px) {
+    nav {
+        height: 68px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+/* 
+    .nav__link--list { */
+        /* display: none;
+    } */
+
+    .btn__menu {
+        display: flex;    /*   so the burger is displayed on smaller screens  */
+    }
+
+    .container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .section__left, .section__right {
+        width: 100%;
+      }
+
+    .sections {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 64px;
+      }
+
+    .section__right {
+        max-width: 80%;
+        justify-content: center;
+   
+    }
+
+    .section__title {
+        margin: 0 0 5px;
+    }
+
+    .testimonials__description, .section__tag--row, .testimonial__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .start__row, .footer__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .start__btns {
+        padding-bottom: 50px;
+    }
+
+    .start__title, .section__title--row, .section__para--row {
+        text-align: center;
+    }
+
+
+    .section__left {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+    
+ 
+}
+
+
+
+@media (max-width: 1024px) {
+    .plans__container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    .start__btns {
+        flex-direction: column;
+    }
+}
